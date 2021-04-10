@@ -25,7 +25,7 @@ setup(
     display_name="My Custom App",
     version="1.0.0",
     license="GNU",
-    author="Anton Bondoff",
+    author="cnsys",
     author_email="you@example.com",
     url="http://www.cnsys.bg",
     description="Resilient Circuits Components for 'package_create_incident'",
