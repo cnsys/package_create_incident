@@ -1,0 +1,12 @@
+[resilient.circuits.components]
+FunctFnCreateIncidentFunctionComponent = package_create_incident.components.funct_fn_create_incident:FunctionComponent
+
+[resilient.circuits.configsection]
+gen_config = package_create_incident.util.config:config_section_data
+
+[resilient.circuits.customize]
+customize = package_create_incident.util.customize:customization_data
+
+[resilient.circuits.selftest]
+selftest = package_create_incident.util.selftest:selftest_function
+

@@ -1,0 +1,2 @@
+resilient-circuits>=30.0.0
+resilient-lib>=39.0.0
