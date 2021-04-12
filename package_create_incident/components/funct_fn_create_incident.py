@@ -56,9 +56,9 @@ class FunctionComponent(ResilientComponent):
             ##############################################
             # PUT YOUR FUNCTION IMPLEMENTATION CODE HERE #
             ##############################################
-            my_summa = input_field_a + input_fileld_b
+            my_summa = fn_inputs.get("input_field_a") + fn_inputs.get("input_fileld_b")
             results = {
-                "Summa": "my_summa"
+                "Summa": my_summa
             }
             # Call API implemtation example:
             # params = {
